@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        div,
+        span {
+            color: rgb(0, 0, 0);
+            background-color: rgb(170, 168, 168);
+        }
+
+        /* class selector */
+        .yellow {
+            background-color: darkgreen;
+        }
+
+        /* id selector */
+        #black {
+            background-color: black;
+        }
+
+        /* Child Selector */
+        div>p {
+            background-color: aqua;
+        }
+
+        /* Desendant Selector */
+        article p {
+            background-color: darkorange;
+        }
+
+        /* Universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector */
+        a:visited {
+            color: aqua
+        }
+
+        a:link {
+            background-color: azure;
+        }
+
+        a:active {
+            background-color: blanchedalmond;
+        }
+
+        a:hover {
+            background-color: chartreuse;
+        }
+
+        p:first-child {
+            background-color: blueviolet;
+        }
+        p{
+            font-family: cursive;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="one">
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+    <link rel="stylesheet" href="style.css">
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</div>
+
+    <span class="yellow"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt nisi vel eveniet fugiat
+        earum deleniti impedit, illum facilis quod quaerat autem vero omnis
+        minima architecto quasi</span>
+    <p id="black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, reprehenderit, facilis quas
+        doloremque molestiae dolor eum exercitationem repellendus delectus nobis impedit nemo temporibus ut dolorem.</p>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores vel delectus exercitationem, mo adipisci
+            ed, eos quas neque optio.</p>
+    </div>
+    <Article>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo suscipit fugit, unde
+                asperiores et, aperiam aliquam, quis tempora inventore!</p>
+        </div>
+    </Article>
+    <a href="https://www.google.com">Google</a>
+    <a herf="https://www.facebook.com">facebook</a>
+    <pre>
+
+
+
+
+
+    </pre>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, aspernatur ullam! Dolores quod vel dolorem qui. Tempora sint error tenetur. Eveniet, possimus id!</p>
+    
+</body>
+
+</html>
